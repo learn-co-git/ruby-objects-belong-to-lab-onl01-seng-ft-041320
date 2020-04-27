@@ -1,5 +1,5 @@
 class Post
-  belongs_to :author 
+  belongs_to ::Author 
   attr_accessor :title 
   
   def initialize()
