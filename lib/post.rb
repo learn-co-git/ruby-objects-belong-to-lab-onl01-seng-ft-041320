@@ -1,4 +1,5 @@
-class Post 
+class Post
+  belong_to: 
   attr_accessor :title 
   
   def initialize()
