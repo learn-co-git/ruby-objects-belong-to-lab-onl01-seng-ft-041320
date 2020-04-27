@@ -1,5 +1,5 @@
 class Post
-  belongs_to :author 
+   
   attr_accessor :title 
   
   def initialize()
@@ -11,3 +11,4 @@ class Post
   
 end 
 
+Author.new()
