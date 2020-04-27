@@ -11,4 +11,3 @@ class Post
   
 end 
 
-Author.new()
